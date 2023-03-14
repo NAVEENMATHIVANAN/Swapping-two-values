@@ -19,6 +19,17 @@ Print both the values it would be interchanged
 End the program
 ## PROGRAM:
 
+num1 = int(input())
+num2 = int(input())
+
+temp=num1
+num1=num2
+num2=temp
+print("Swapped values are:",num1,num2)
+
+## OUTPUT:
+
+![Screenshot_20230314_084919](https://user-images.githubusercontent.com/119394582/225056074-0a07e0dd-5e17-4818-8316-3d3ad5b2697d.png)
 
 
 ## RESULT:
